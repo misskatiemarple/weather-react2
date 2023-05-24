@@ -1,23 +1,22 @@
 import React, { useState } from "react";
 import "./Weather.css";
+import Weatherinfo from "./Weatherinfo";
 import axios from "axios";
 
-export default function Weather() {
-  const [supply, setSupply] = useState(false);
+export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
-  const [location, setLocation] = useState("");
+  const [location, setLocation] = useState(props.defaultLocation);
 
   function handleResponse(response) {
     setWeatherData({
       ready: true,
-      coordinates: response.data.coord,
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
       date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
       icon: response.data.weather[0].icon,
       wind: response.data.wind.speed,
-      city: response.data.name,
+      location: response.data.name,
     });
   }
 
@@ -56,33 +55,11 @@ export default function Weather() {
             </div>
           </div>
         </form>
-        <ul>
-          <li className="text-capitalize">{weatherData}</li>
-        </ul>
+        <Weatherinfo data={weatherData} />
       </div>
     );
   } else {
-    return (
-      <div>
-        <form onSubmit={handleSubmit}>
-          <div className="row">
-            <div className="col-9">
-              <input
-                type="search"
-                placeholder="Enter a City..."
-                onChange={handleLocation}
-              />
-            </div>
-            <div className="col-3">
-              <input
-                type="submit"
-                value="Search"
-                className="btn btn-primary w-100"
-              />
-            </div>
-          </div>
-        </form>
-      </div>
-    );
+    search();
+    return "Loading...";
   }
 }
