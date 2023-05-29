@@ -18,6 +18,7 @@ export default function Weather(props) {
       icon: response.data.weather[0].icon,
       wind: response.data.wind.speed,
       location: response.data.name,
+      icon: response.data.weather[0].icon,
     });
   }
 

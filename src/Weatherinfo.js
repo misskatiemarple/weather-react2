@@ -1,5 +1,7 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import WeatherIcon from "./WeatherIcon";
+import WeatherTemperature from "./WeatherTemperature";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Weatherinfo.css";
 
@@ -16,13 +18,14 @@ export default function Weatherinfo(props) {
             <li className="text-capitalize mb-3">{props.data.description}</li>
           </ul>
           <div className="d-flex todays-temperature">
+            <div>
+              <WeatherIcon
+                code={props.data.icon}
+                alt={props.data.description}
+              />
+            </div>
             <div className="currentTemperature">
-              <ul>
-                <li>Temperature: {Math.round(props.data.temperature)}</li>
-                <span className="units">
-                  <a href="/">°C</a> | <a href="/">°F</a>
-                </span>
-              </ul>
+              <WeatherTemperature celsius={props.data.temperature} />
               <ul>
                 <li>Humidity: {props.data.humidity}%</li>
                 <li>Wind Speed: {props.data.wind}km/h</li>
@@ -37,7 +40,7 @@ export default function Weatherinfo(props) {
               <p>
                 <span>
                   <li className="text-capitalize text-center">
-                    Description: {props.data.description}
+                    What to wear today?
                   </li>
                 </span>
               </p>
