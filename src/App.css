@@ -1,0 +1,75 @@
+body {
+  font-family: Roboto;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+}
+
+h1 {
+  color: black;
+  font-family: "oswald";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 80px;
+  margin-bottom: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 19px;
+  color: #878787;
+}
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.todays-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+.currentTemperature {
+  color: black;
+  font-size: 60px;
+  line-height: 1;
+  font-family: "oswald";
+  font-weight: 200;
+}
+.WeatherTemperature .unit {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+.outfit {
+  text-align: center;
+  border-radius: 5px;
+}
+.card-header {
+  text-transform: capitalize;
+  font-family: "oswald";
+  font-size: 18px;
+  line-height: 1;
+}
+#description:first-letter {
+  text-transform: capitalize;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #212529;
+}
+.active:hover {
+  text-decoration: none;
+}

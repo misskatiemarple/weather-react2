@@ -8,17 +8,17 @@ export default function App() {
       <div className="container">
         <h1>Weather Planner</h1>
         <Weather defaultLocation="Tokyo" />
-        <p>
-          Project is coded and{" "}
-          <a
-            href="https://github.com/misskatiemarple/weather-react2"
-            target="_blank"
-          >
-            open sourced
-          </a>{" "}
-          by Katie Marple
-        </p>
       </div>
+      <p className="text-center">
+        Project is coded and{" "}
+        <a
+          href="https://github.com/misskatiemarple/weather-react2"
+          target="_blank"
+        >
+          open sourced
+        </a>{" "}
+        by Katie Marple
+      </p>
     </div>
   );
 }
