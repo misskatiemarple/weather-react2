@@ -1,12 +1,16 @@
 body {
   font-family: Roboto;
+  background-image: url("./image/cherryblossom.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
   max-width: 600px;
   margin: 30px auto;
   padding: 20px;
-  border: 1px solid #dadde1;
+  border: 1px solid #fbfdfe;
+  background-color: #fbfdfe;
   border-radius: 5px;
 }
 
@@ -52,24 +56,7 @@ li:first-letter {
   font-size: 16px;
   top: -34px;
 }
-.outfit {
-  text-align: center;
-  border-radius: 5px;
-}
-.card-header {
-  text-transform: capitalize;
-  font-family: "oswald";
-  font-size: 18px;
-  line-height: 1;
-}
+
 #description:first-letter {
   text-transform: capitalize;
-}
-
-.card-text {
-  font-size: 16px;
-  color: #212529;
-}
-.active:hover {
-  text-decoration: none;
 }
