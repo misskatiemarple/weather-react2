@@ -6,7 +6,8 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather Planner</h1>
+        <h1 className="text-center">SHE LOVES TRAVEL</h1>
+        <h2 className="text-center">Japan Weather and Itinerary Planner</h2>
         <Weather defaultLocation="Tokyo" />
       </div>
       <p className="text-center">
