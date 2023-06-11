@@ -33,9 +33,10 @@ export default function OsakaItinerary() {
               rel="noreferrer"
               className="text-black"
             >
+              {" "}
               editorial{" "}
             </a>
-            for the best spots.
+            for the best options.
           </p>
         </div>
       </div>

@@ -25,7 +25,7 @@ export default function TokyoItinerary() {
           <br />
           <p>
             June is Hydrangea season. Many parks have thousands of these
-            stunning flowers in rainbow hues
+            stunning flowers in rainbow hues.
           </p>
         </div>
       </div>

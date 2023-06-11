@@ -5,20 +5,20 @@ export default function KyotoItinerary() {
     <div>
       <div className="row text-center">
         <div className="col-4 border">
-          <strong>Kyoto 1</strong>
+          <strong>Arashiyama</strong>
           <br />
           <p>
-            Discover what life was like at this interactive museum. You can
-            stroll around a replica Edo period street as it turns from day to
-            night.
+            Stroll along paths that weave their way through this world-famous
+            bamboo forest. Make it to the top and you'll find a monkey park.
           </p>
         </div>
         <div className="col-4 border">
-          <strong>Kyoto 2</strong>
+          <strong>Gion District</strong>
           <br />
           <p>
-            Stroll around the 100 hectares castle grounds and enjoy historical
-            presentations on every floor of the castle.
+            Interested in Japanese culture and history? There are many shrines
+            to enjoy, traditional tea ceremonies galore, and if you're lucky you
+            might spot a Geisha.
           </p>
         </div>
         <div className="col-4 border">
@@ -33,9 +33,10 @@ export default function KyotoItinerary() {
               rel="noreferrer"
               className="text-black"
             >
+              {" "}
               editorial{" "}
             </a>
-            for the best spots.
+            for the best options.
           </p>
         </div>
       </div>

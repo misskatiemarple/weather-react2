@@ -9,7 +9,7 @@ export default function LocationItinerary(props) {
   if (location === "Tokyo") {
     return (
       <div className="itineraryContainer mt-4">
-        <h2 className="text-center">Itinerary Inspirations</h2>
+        <h2 className="itineraryh2 text-center">Itinerary Inspirations</h2>
         <TokyoItinerary />
       </div>
     );
@@ -17,7 +17,7 @@ export default function LocationItinerary(props) {
     if (location === "Osaka") {
       return (
         <div className="itineraryContainer mt-4">
-          <h2 className="text-center">Itinerary Inspirations</h2>
+          <h2 className="itineraryh2 text-center">Itinerary Inspirations</h2>
           <OsakaItinerary />
         </div>
       );
@@ -25,7 +25,7 @@ export default function LocationItinerary(props) {
       if (location === "Kyoto") {
         return (
           <div className="itineraryContainer mt-4">
-            <h2 className="text-center">Itinerary Inspirations</h2>
+            <h2 className="itineraryh2 text-center">Itinerary Inspirations</h2>
             <KyotoItinerary />
           </div>
         );

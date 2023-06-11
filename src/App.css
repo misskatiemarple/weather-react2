@@ -60,3 +60,7 @@ li:first-letter {
 #description:first-letter {
   text-transform: capitalize;
 }
+.itineraryh2 {
+  font-family: "Pacifico";
+  color: #ec6757;
+}
