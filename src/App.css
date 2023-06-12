@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   background-image: url("./image/cherryblossom.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,7 +16,7 @@ body {
 
 h1 {
   color: black;
-  font-family: "oswald";
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 48px;
   line-height: 80px;
@@ -61,6 +61,6 @@ li:first-letter {
   text-transform: capitalize;
 }
 .itineraryh2 {
-  font-family: "Pacifico";
+  font-family: "Pacifico", cursive;
   color: #ec6757;
 }
