@@ -5,7 +5,9 @@ export default function OsakaItinerary() {
     <div>
       <div className="row text-center">
         <div className="col-4 border">
-          <strong>Museum of Living</strong>
+          <strong className="text-decoration-underline">
+            Museum of Living
+          </strong>
           <br />
           <p>
             Discover what life was like at this interactive museum. You can
@@ -14,7 +16,7 @@ export default function OsakaItinerary() {
           </p>
         </div>
         <div className="col-4 border">
-          <strong>Osaka Castle</strong>
+          <strong className="text-decoration-underline">Osaka Castle</strong>
           <br />
           <p>
             Stroll around the 100 hectares castle grounds and enjoy historical
@@ -22,7 +24,7 @@ export default function OsakaItinerary() {
           </p>
         </div>
         <div className="col-4 border">
-          <strong>Hydrangea Park</strong>
+          <strong className="text-decoration-underline">Hydrangea Park</strong>
           <br />
           <p>
             June is Hydrangea season. Many parks have thousands of these

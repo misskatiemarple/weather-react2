@@ -5,7 +5,9 @@ export default function TokyoItinerary() {
     <div>
       <div className="row text-center">
         <div className="col-4 border">
-          <strong>Tokyo teamLab Planets</strong>
+          <strong className="text-decoration-underline">
+            Tokyo teamLab Planets
+          </strong>
           <br />
           <p>
             An interactive art-museum. Walk through water, become one with
@@ -13,7 +15,7 @@ export default function TokyoItinerary() {
           </p>
         </div>
         <div className="col-4 border">
-          <strong>Themed Cafes</strong>
+          <strong className="text-decoration-underline">Themed Cafes</strong>
           <br />
           <p>
             Whether you want enjoy a Maid cafe or share a coffee in a room of
@@ -21,7 +23,7 @@ export default function TokyoItinerary() {
           </p>
         </div>
         <div className="col-4 border">
-          <strong>Hydrangea Park</strong>
+          <strong className="text-decoration-underline">Hydrangea Park</strong>
           <br />
           <p>
             June is Hydrangea season. Many parks have thousands of these

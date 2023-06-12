@@ -5,7 +5,7 @@ export default function KyotoItinerary() {
     <div>
       <div className="row text-center">
         <div className="col-4 border">
-          <strong>Arashiyama</strong>
+          <strong className="text-decoration-underline">Arashiyama</strong>
           <br />
           <p>
             Stroll along paths that weave their way through this world-famous
@@ -13,7 +13,7 @@ export default function KyotoItinerary() {
           </p>
         </div>
         <div className="col-4 border">
-          <strong>Gion District</strong>
+          <strong className="text-decoration-underline">Gion District</strong>
           <br />
           <p>
             Interested in Japanese culture and history? There are many shrines
@@ -22,7 +22,7 @@ export default function KyotoItinerary() {
           </p>
         </div>
         <div className="col-4 border">
-          <strong>Hydrangea Park</strong>
+          <strong className="text-decoration-underline">Hydrangea Park</strong>
           <br />
           <p>
             June is Hydrangea season. Many parks have thousands of these
