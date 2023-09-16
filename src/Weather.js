@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import Weatherinfo from "./Weatherinfo";
 import WeatherForecast from "./WeatherForecast";
-import LocationItinerary from "./LocationItinerary";
 import axios from "axios";
 
 export default function Weather(props) {
@@ -61,7 +60,6 @@ export default function Weather(props) {
         </form>
         <Weatherinfo data={weatherData} size={52} />
         <WeatherForecast coordinates={weatherData.coordinates} />
-        <LocationItinerary defaultLocation={weatherData.location} />
       </div>
     );
   } else {
